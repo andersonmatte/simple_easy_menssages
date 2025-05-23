@@ -54,19 +54,19 @@ ToastificationWidget
 
 ✅ Success
 
-![Success](https://github.com/andersonmatte/simple_easy_menssages/raw/main/assets/Success.png)
+![Success](https://raw.githubusercontent.com/andersonmatte/simple_easy_menssages/refs/heads/master/assets/Success.png)
 
 ⚠️ Warning
 
-![Warning](https://github.com/andersonmatte/simple_easy_menssages/raw/main/assets/Warning.png)
+![Warning](https://raw.githubusercontent.com/andersonmatte/simple_easy_menssages/refs/heads/master/assets/Warning.png)
 
 ❌ Error
 
-![Error](https://github.com/andersonmatte/simple_easy_menssages/raw/main/assets/Error.png)
+![Error](https://raw.githubusercontent.com/andersonmatte/simple_easy_menssages/refs/heads/master/assets/Error.png)
 
 🔷 Custom
 
-![Custom](https://github.com/andersonmatte/simple_easy_menssages/raw/main/assets/Custom.png)
+![Custom](https://raw.githubusercontent.com/andersonmatte/simple_easy_menssages/refs/heads/master/assets/Custom.png)
 
 
 🤝 Contributing
