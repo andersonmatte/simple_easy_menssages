@@ -28,7 +28,7 @@ import 'package:simple_easy_menssages/message_notifier.dart';
 import 'package:simple_easy_menssages/models/message_config.dart';
 ```
 
-🎯 Features
+## 🎯 Features
 
 ```
 showSuccess: displays a success message
@@ -52,7 +52,7 @@ ToastificationWidget
 
 ## IMPORTANT! The operations showSuccess, showWarning and showError are methods with predefined colors and icons, but they are not closed and can be customized just like showCustom.
 
-✨ Demos
+## ✨Demos
 
 ✅ Success
 
@@ -134,16 +134,16 @@ MessageNotifier.showCustom(
     );
 ```
 
-🤝 Contributing
+## 🤝 Contributing
 
 Contributions are welcome! Open an issue or submit a pull request:
 https://github.com/andersonmatte/simple_easy_menssages
 
-👨‍💻 Author
+## 👨‍💻 Author
 
 Anderson Matte
 [GitHub](https://github.com/andersonmatte/) | [LinkedIn](https://www.linkedin.com/in/andersonmatte/)
 
-📝 License
+## 📝 License
 
 This project is licensed under the MIT License. See the LICENSE file for more details.
