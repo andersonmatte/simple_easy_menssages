@@ -50,6 +50,8 @@ SnackbarWidget
 ToastificationWidget
 ```
 
+## IMPORTANT! The operations showSuccess, showWarning and showError are methods with predefined colors and icons, but they are not closed and can be customized just like showCustom.
+
 ✨ Demos
 
 ✅ Success
@@ -67,6 +69,70 @@ ToastificationWidget
 🔷 Custom
 
 ![Custom](https://raw.githubusercontent.com/andersonmatte/simple_easy_menssages/refs/heads/master/assets/Custom.png)
+
+✅ Success Example
+
+```dart
+MessageNotifier.showSuccess(
+context: context,
+title: 'Success!',
+message: 'Operation completed successfully!',
+displayType: DisplayType.snackbar,
+config: MessageConfig(
+icon: Icons.check_circle_outline,
+backgroundColor: Colors.green,
+textColor: Colors.white,
+),
+);
+```
+⚠️ Warning Example
+
+```dart
+    MessageNotifier.showWarning(
+      context: context,
+      title: 'Warning',
+      message: 'Operation with warning!',
+      displayType: displayType,
+      config: MessageConfig(
+        icon: Icons.warning_amber,
+        backgroundColor: Colors.yellow,
+        textColor: Colors.black,
+        duration: const Duration(seconds: 3),
+      ),
+    );
+```
+❌ Error
+
+```dart
+MessageNotifier.showError(
+      context: context,
+      title: 'Error',
+      message: 'Operation with error!',
+      displayType: displayType,
+      config: MessageConfig(
+        icon: Icons.error_outline_outlined,
+        backgroundColor: Colors.red,
+        textColor: Colors.white,
+        duration: const Duration(seconds: 3),
+      ),
+    );
+```
+🔷 Custom
+
+```dart
+MessageNotifier.showCustom(
+      context: context,
+      title: 'Custom',
+      message: 'Fully customizable message',
+      displayType: displayType,
+      config: MessageConfig(
+        backgroundColor: Colors.purple,
+        icon: Icons.star,
+        textColor: Colors.yellow,
+        duration: Duration(seconds: 5),
+      ),
+    );
+```
 
 
 🤝 Contributing
