@@ -59,7 +59,6 @@ ToastificationWidget
 ![Success](https://raw.githubusercontent.com/andersonmatte/simple_easy_menssages/refs/heads/master/assets/Success.png)
 
 ⚠️ Warning
-
 ![Warning](https://raw.githubusercontent.com/andersonmatte/simple_easy_menssages/refs/heads/master/assets/Warning.png)
 
 ❌ Error
@@ -73,17 +72,18 @@ ToastificationWidget
 ✅ Success Example
 
 ```dart
-MessageNotifier.showSuccess(
-context: context,
-title: 'Success!',
-message: 'Operation completed successfully!',
-displayType: DisplayType.snackbar,
-config: MessageConfig(
-icon: Icons.check_circle_outline,
-backgroundColor: Colors.green,
-textColor: Colors.white,
-),
-);
+    MessageNotifier.showSuccess(
+      context: context,
+      title: 'Success',
+      message: 'Operation completed successfully!',
+      displayType: displayType,
+      config: MessageConfig(
+        icon: Icons.check_circle_outline,
+        backgroundColor: Colors.green,
+        textColor: Colors.white,
+        duration: const Duration(seconds: 3),
+      ),
+    );
 ```
 ⚠️ Warning Example
 
@@ -133,7 +133,6 @@ MessageNotifier.showCustom(
       ),
     );
 ```
-
 
 🤝 Contributing
 
